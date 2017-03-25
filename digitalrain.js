@@ -1,4 +1,4 @@
-var symbolSize = 20;
+var symbolSize = 14;
 var streams = [];
 var canvas;
 
