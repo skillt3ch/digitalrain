@@ -50,7 +50,7 @@ function Symbol (x, y, speed, first) {
 function Stream () {
     this.symbols = [];
     this.totalSymbols = round(random(5,30));
-    this.speed = random(4,12);
+    this.speed = random(5,20);
 
     this.generateSymbols = function (x, y) {
         var first = round(random(0, 4)) == 1;
